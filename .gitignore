@@ -1,0 +1,7 @@
+//once created, simply add all the files you want to hide to .gitignore
+
+node_modules/
+.env
+
+//the .env file is where you store your environmental variables, for instance
+//you would assign your API key to an environmental variable to keep it secure

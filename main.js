@@ -5,3 +5,7 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
 });
+
+//make the following change in your index.js file
+
+app.listen(process.env.PORT || 3000);
