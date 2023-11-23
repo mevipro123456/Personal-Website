@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'sans-serif', sans-serif;
+    font-family: 'LeviReBrushed', sans-serif;
 }
 
 body {
@@ -186,6 +186,53 @@ body {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
+}
+
+.projects {
+    background: #081b29;
+    padding: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.projects > .projects-text {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.projects > .projects-link {
+    display: grid;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.left {
+    text-align: center;
+    padding-right: 10rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.right {
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+th > p {
+    text-align: center;
+    padding: auto;
+}
+
+th > a > img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.projects-text h2 span {
+    color: #b1ffff;
 }
 
 @font-face {
